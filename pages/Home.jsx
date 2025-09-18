@@ -64,7 +64,7 @@ export default function Home() {
         {/* Bottom Background Image */}
         <div className="absolute bottom-0 left-0 w-full h-[60vh] bg-cover bg-center bg-no-repeat opacity-20"
              style={{
-               backgroundImage: 'url("../entities/images/background.jpeg")',
+               backgroundImage: 'url("/images/background.jpeg")',
                maskImage: 'linear-gradient(to top, black 0%, transparent 100%)',
                WebkitMaskImage: 'linear-gradient(to top, black 0%, transparent 100%)'
              }}>
