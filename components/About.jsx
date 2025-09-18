@@ -165,52 +165,52 @@ export default function About() {
                 <div
                   className="glass-card rounded-3xl p-16 md:p-20 w-full aspect-video flex flex-col justify-start items-start hover:bg-white/10 transition-all duration-300 group hover:-translate-y-3 hover:scale-105 relative overflow-hidden"
                   style={title === 'Manhattan, First Time in the US' ? {
-                    backgroundImage: 'url("/personal-website/images/Manhattan.JPEG")',
+                    backgroundImage: 'url("./images/Manhattan.JPEG")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Denmark, with my Amazing Friend!' ? {
-                    backgroundImage: 'url("/personal-website/images/Denmark.JPEG")',
+                    backgroundImage: 'url("./images/Denmark.JPEG")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Volleyball, Freshmen in CCU' ? {
-                    backgroundImage: 'url("/personal-website/images/volleyball_freshmen.JPEG")',
+                    backgroundImage: 'url("./images/volleyball_freshmen.JPEG")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Becoming a School Ambassador' ? {
-                    backgroundImage: 'url("/personal-website/images/flagship.jpeg")',
+                    backgroundImage: 'url("./images/flagship.jpeg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Ole Miss, First Day in Mississippi' ? {
-                    backgroundImage: 'url("/personal-website/images/Olemiss_firstday.jpeg")',
+                    backgroundImage: 'url("./images/Olemiss_firstday.jpeg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Atlanta, Thanksgiving Trip' ? {
-                    backgroundImage: 'url("/personal-website/images/Gatech.jpeg")',
+                    backgroundImage: 'url("./images/Gatech.jpeg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Osaka, Japan Adventure' ? {
-                    backgroundImage: 'url("/personal-website/images/Osaka.jpeg")',
+                    backgroundImage: 'url("./images/Osaka.jpeg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center 83%',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'JJ Lin Concert Experience' ? {
-                    backgroundImage: 'url("/personal-website/images/JJLin.JPG")',
+                    backgroundImage: 'url("./images/JJLin.JPG")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'Graduation from CCU!' ? {
-                    backgroundImage: 'url("/personal-website/images/graduate.jpeg")',
+                    backgroundImage: 'url("./images/graduate.jpeg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
                   } : title === 'ITRI Internship' ? {
-                    backgroundImage: 'url("/personal-website/images/ITRI.jpeg")',
+                    backgroundImage: 'url("./images/ITRI.jpeg")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'
