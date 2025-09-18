@@ -47,8 +47,15 @@ export default function Home() {
   }, []);
 
   const loadProjects = async () => {
-    const data = await Project.list("-created_date");
-    setProjects(data);
+    try {
+      console.log("Loading projects...");
+      const data = await Project.list("-created_date");
+      console.log("Projects loaded:", data);
+      setProjects(data);
+    } catch (error) {
+      console.error("Error loading projects:", error);
+      setProjects([]);
+    }
   };
 
   return (
@@ -64,7 +71,7 @@ export default function Home() {
         {/* Bottom Background Image */}
         <div className="absolute bottom-0 left-0 w-full h-[60vh] bg-cover bg-center bg-no-repeat opacity-20"
              style={{
-               backgroundImage: 'url("/images/background.jpeg")',
+               backgroundImage: 'url("/personal-website/images/background.jpeg")',
                maskImage: 'linear-gradient(to top, black 0%, transparent 100%)',
                WebkitMaskImage: 'linear-gradient(to top, black 0%, transparent 100%)'
              }}>
